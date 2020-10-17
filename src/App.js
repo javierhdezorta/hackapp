@@ -2,6 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function setName(name){
+  let template =
+  <div>
+    <h2>{name} </h2>
+  </div>
+   
+  return (template)
+}
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +27,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          {setName("javier") }
+        </p>
       </header>
     </div>
   );
