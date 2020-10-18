@@ -24,11 +24,86 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Interpretador inteligente</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="width:auto; height:auto">
+        </nav>
+    
+    
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid"  src="images/image3.jpg"  alt="Chicago" width="1300" height="1px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid"  src="images/image1.jpg" alt="Chicago" width="1300" height="1px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid"  src="images/image2.jpg" alt="New York" width="1300" height="1px">
+                </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+         <br>
+        <br>
+
+        <div class="container">
+            <h3>Interpretador inteligente</h3>
+                <p> </p>
+                <p>Repositirio de la app.  <a href="https://github.com/javierhdezorta/hackapp/tree/feat/dev" target="_blank">datahack_app</a></p>
+                <p>Repositirio.  <a href="https://github.com/Malerva/hacktasticos" target="_blank">datahack</a></p>
+        </div>
+        <div id="root"></div>
+        <br>
+        <br>
+        <footer style="display: block; background-color: #212529; color:white; height:100px">
+            <div  style="text-align: center">
+                <p>
+                    Hacktasticos
+                    <br> Todos los Derechos Reservados
+                </p>
+                <a href="https://www.linkedin.com/in/arturo-antonio-soto-osornio-133516169/" target="_blank">Arturo</a> *
+                <a href="https://www.linkedin.com/in/carla-paola-malerva-resendiz-8986b5167/" target="_blank">Carla</a> *
+                <a href="https://www.linkedin.com/in/javier-orta-0a7663175/" target="_blank">Derek</a> *
+                <a href="https://www.linkedin.com/in/javier-orta-0a7663175/" target="_blank">Javier</a> *
+                <a href="https://www.linkedin.com/in/javier-orta-0a7663175/" target="_blank">Marlen</a> *
+                <a href="https://www.linkedin.com/in/miriam-a-77385b174/" target="_blank">Miriam</a>
+
+
+            </div>
+        </footer>
+
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

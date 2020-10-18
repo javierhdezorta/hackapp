@@ -25,10 +25,8 @@ const CustomComponent = () => {
   return (
     <form onSubmit={submitFile}>
       <div>
-        <label>Upload file</label>
-      </div>
-      <div>
         <input type="file" onChange={event => setFile(event.target.files)} />
+
       </div>
       <div>
         <button type="submit">Send</button>
